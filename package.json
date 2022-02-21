@@ -1,0 +1,22 @@
+{
+  "name": "thedump",
+  "version": "1.0.0",
+  "description": "la garbago",
+  "main": "index.js",
+  "scripts": {
+    "test": "offh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lysheim/theDump.git"
+  },
+  "keywords": [
+    "trash"
+  ],
+  "author": "jorgtho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lysheim/theDump/issues"
+  },
+  "homepage": "https://github.com/lysheim/theDump#readme"
+}
