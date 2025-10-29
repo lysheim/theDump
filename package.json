@@ -1,10 +1,10 @@
 {
   "name": "thedump",
-  "version": "2.0.0",
+  "version": "3.3.1",
   "description": "la garbago",
   "main": "index.js",
   "scripts": {
-    "test": "offh"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/lysheim/theDump/issues"
   },
-  "homepage": "https://github.com/lysheim/theDump#readme"
+  "homepage": "https://github.com/lysheim/theDump#readme",
+  "dependencies": {
+    "zod": "^4.1.12"
+  }
 }
