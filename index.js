@@ -19,3 +19,4 @@ const TUT = z.object({
 const tut = TUT.parse({a: 'Ola', age: 'dfjkd'})
 
 console.log('Søppel er gøy')
+console.log('Hahahahah, søppel er livet')
