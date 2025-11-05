@@ -1,6 +1,6 @@
 {
   "name": "thedump",
-  "version": "4.0.0",
+  "version": "3.3.3",
     "description": "la garbago",
   "main": "index.js",
   "scripts": {
