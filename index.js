@@ -12,4 +12,5 @@ Breaking
 minor
 patch
 maintenance
+other
 */
