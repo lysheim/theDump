@@ -9,6 +9,8 @@ console.log('Her er det mer søppel nå')
 console.log('Her er det enda mer søppel nå')
 console.log('Her er det enda mer søppel en det var før nå')
 
+// Hvor får jeg tak i mer søppel a?
+
 // EN endring laget av søppelplassen
 
 // HALLO
