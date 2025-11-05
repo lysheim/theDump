@@ -11,4 +11,5 @@ console.log('Her er det enda mer søppel en det var før nå')
 Breaking
 minor
 patch
+maintenance
 */
