@@ -15,6 +15,8 @@ console.log('Her er det enda mer søppel en det var før nå')
 
 const yr = 'det blir regn'
 
+const garbageWeather = 'søppelvær'
+
 // HALLO
 /*
 

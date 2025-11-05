@@ -1,20 +1,20 @@
 {
   "name": "thedump",
   "version": "4.0.0",
-  "description": "la garbago",
+    "description": "la garbago",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
-    "type": "git",
+        "type": "git",
     "url": "git+https://github.com/lysheim/theDump.git"
   },
   "keywords": [
     "trash"
   ],
   "author": "jorgtho",
-  "license": "MIT",
+      "license": "MITT I TRYNET!",
   "bugs": {
     "url": "https://github.com/lysheim/theDump/issues"
   },
