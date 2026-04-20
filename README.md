@@ -12,7 +12,6 @@ Hahahah
 
 UIUIUI
 
-Halla
-f
+Hal
 
 Tullball
