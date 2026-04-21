@@ -16,7 +16,7 @@ Halalala
 
 Tullball fdjifdf
 
-Gubbanioa
+Gubbanioa jaua
 
 Beit seg i i i i i itoa
 
