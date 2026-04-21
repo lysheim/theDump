@@ -18,11 +18,23 @@ const runGitCommand = (command) => {
 }
 
 const parseGitLogs = (rawLog) => {
+	// Windows wraps newlines in single quotes for some reason, remove them if they are present
+	if (rawLog.startsWith("'") && rawLog.endsWith("'")) {
+		rawLog = rawLog.slice(1, -1)
+	}
+
 	const commitEntries = rawLog.split(commitOutputSeparator).filter((entry) => entry.trim() !== "")
 
 	return commitEntries.map((entry) => {
-        if (entry.start)
-        console.log(entry)
+    // Windows
+		if (entry.startsWith("'\n'")) {
+			entry = entry.slice(3)
+		}
+		// UNIX
+		if (entry.startsWith("\n")) {
+			entry = entry.slice(1)
+		}
+
 		const properties = entry.split(commitPropertySeparator)
 		if (properties.length < prettyPropertyNamesInOrder.length) {
 			throw new Error("Pretty format and property names length mismatch, check prettyFormat and property names array (that they have same number of properties, and in same order)")
@@ -57,7 +69,7 @@ const getCommitsSinceTag = (tagOrCommitHash) => {
 	return parseGitLogs(log)
 }
 
-writeFileSync("./res.json", JSON.stringify(getCommitsSinceTag("978a571")))
+writeFileSync("./res.json", JSON.stringify(getCommitsSinceTag("HEAD")))
 
 
 
