@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/lysheim/theDump/issues"
   },
-  "homepage": "https://github.com/lysheim/theDump#readme",
-  "dependencies": {
-    "zod": "^4.1.12"
-  }
+  "homepage": "https://github.com/lysheim/theDump#readme"
 }

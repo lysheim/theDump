@@ -1,7 +1,5 @@
 // @ts-check
 
-const { default: z } = require("zod")
-
 console.log('søppelplassen')
 
 console.log('Her er det søppel')
