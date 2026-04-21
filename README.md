@@ -20,7 +20,7 @@ Gubbanioa jaua
 mimi
 
 supo
-
+bibo
 Beit seg i i i i i itoa
 
 så det gjorde drittvondt
