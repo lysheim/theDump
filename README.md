@@ -23,4 +23,4 @@ supo
 bibo
 Beit seg i i i i i itoa
 
-så det gjorde drittvondt
+så det gjorde drittvondt i trynet
